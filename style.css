@@ -1,0 +1,36 @@
+main{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+.showroom{
+    min-width: 44%;
+    min-height: 400px;
+    background: green;
+    display: block;
+    margin: auto;
+   
+}
+.showroom p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+
+}
+ol{
+    list-style-type: none;
+    display: flex; 
+    
+}
+ol li img{
+    width: 100%;
+    width: 110px;
+    margin: auto;
+    padding: 4px;
+}
+
+
