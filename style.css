@@ -4,33 +4,26 @@ main{
    align-items: center;
    flex-direction: column;
 }
-
-.showroom{
-    min-width: 44%;
-    min-height: 400px;
-    background: green;
-    display: block;
-    margin: auto;
-   
+.hidden{
+    display: none;
 }
-.showroom p{
+.showroom{
+    min-width: 500px;
+    min-height: 500px;
+    background: blue;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: bold;
-
 }
-ol{
+ul{
     list-style-type: none;
     display: flex; 
+    justify-content: center; 
+    padding:0;
+}
+ul li img{
+    width: 75px;
+    margin: 5px;
     
 }
-ol li img{
-    width: 100%;
-    width: 110px;
-    margin: auto;
-    padding: 4px;
-}
-
-
+ 
